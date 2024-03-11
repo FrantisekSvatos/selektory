@@ -1,0 +1,16 @@
+header[title=zahlavi]{
+    font-size: 30px;
+    background-color: bisque;
+}
+header h1{ /*header je rodič h1*/
+    color: violet;
+}
+header[title] h2{
+    color:green;
+}
+menu > li{ /*přímý potomek, díťe*/
+    list-style-type: none;
+}
+header + p{
+    color: blue;
+}
